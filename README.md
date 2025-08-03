@@ -39,7 +39,7 @@ yarn start
 npm start
 ```
 
-> O frontend estará disponível em: http://localhost:5173/ ou http://localhost:8000/
+> O frontend estará disponível em: http://localhost:5173/
 
 ---
 
