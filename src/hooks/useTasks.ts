@@ -133,6 +133,7 @@ export function useTasks() {
           ),
         ].sort((a, b) => Number(a.complete) - Number(b.complete))
       )
+      await loadTasks()
     } catch (err) {
       console.error(err)
       setError("Erro ao atualizar tarefa")
