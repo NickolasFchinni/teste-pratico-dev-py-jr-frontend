@@ -5,14 +5,14 @@ import RegisterPage from "./pages/RegisterPage"
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/tarefas" element={<TaskPage />} />
-        <Route path="*" element={<LoginPage />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/tarefas" element={<TaskPage />} />
+          <Route path="*" element={<LoginPage />} />
+        </Routes>
+      </Router>
   )
 }
 
